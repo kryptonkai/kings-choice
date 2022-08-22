@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>King's Choice - Toos</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/vue@3"></script>
+  </head>
+  <body>
+    <p>Books to SP Calculator</p>
+    <div id="app">{{ message }}</div>
+
+    <a href="/index.html">Back to Home</a>
+	<script>
+        const { createApp } = Vue
+      
+        createApp({
+          data() {
+            return {
+              message: 'Hello Vue!'
+            }
+          }
+        }).mount('#app')
+      </script>
+  </body>
+</html>
